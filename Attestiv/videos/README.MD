@@ -27,7 +27,7 @@ For reference, all original media files (videos) and test screenshots are availa
 | **Video 2** | AI-generated lip-syncing video using D-ID, with detectable lip-sync modifications | **0.2333** | Low suspicion; tool detects subtle lip replacement but maintains low suspicion overall | [D-ID Studio](https://studio.d-id.com/share?id=f201022ca36a1bbb480fcf78011a8a0f&utm_source=copy) |
 | **Video 3** | AI-generated night-time cliff scenery from Leonardo platform | **0.3383** | Moderate suspicion due to generated markers, stable score | [Leonardo](https://cdn.leonardo.ai/users/cf239304-deb5-4ad4-ad74-b74ba38be85c/generations/27c0aa8a-3354-4964-81da-fdd6d43055fc/27c0aa8a-3354-4964-81da-fdd6d43055fc.mp4) |
 | **Video 4** | AI-enhanced video with Tom Cruise face replacement | **0.4168** | Moderate suspicion, tool accurately detects face replacement | [YouTube](https://www.youtube.com/watch?v=iyiOVUbsPcM) |
-| **Video 5** | Real stock video of a city view from a hotel, error encountered during upload | - | Internal server error prevented analysis | [YouTube](https://www.youtube.com/watch?v=CE0Q904gtMI) |
+| **Video 5** | Doctored video of an eagle snatching a baby, resulting in an error during the scan process | - | Internal server error prevented analysis | [YouTube](https://www.youtube.com/watch?v=CE0Q904gtMI) |
 | **Video 6** | Real video of a city street view from a high floor, taken by mobile phone | **0.4038** | Slightly above moderate suspicion, possibly due to compression artifacts | [GitHub repo](https://github.com/wsaqaf/blockchainai/raw/refs/heads/main/Attestiv/videos/test6-Dusit_hotel-suites-doha-original-r1.mp4) |
 | **Video 7** | Original unaltered video used in the lip-syncing exercise, lips fully closed | **0.2471** | Low suspicion; accurately detected as unaltered despite minor markers | [GitHub repo](https://github.com/wsaqaf/blockchainai/raw/refs/heads/main/Attestiv/videos/test7-D-ID-lipsync1-f2.mp4) |
 | **Video 8** | Real drone footage of a river in a green valley | **0.5891** | Moderate to high suspicion, false positives likely due to natural scenery | [Vecteezy](https://www.vecteezy.com/video/38999617-green-simple-nature-slomo-view) |
@@ -62,7 +62,7 @@ For reference, all original media files (videos) and test screenshots are availa
 - **Implication**: Attestiv is capable of flagging AI face replacement, making it useful for deepfake detection.
 - **Link**: [YouTube](https://www.youtube.com/watch?v=iyiOVUbsPcM)
 
-#### Video 5: Real Video from Hotel Room, Error Encountered
+#### Video 5: Doctored video of an eagle snatching a baby
 - **Error**: Internal server error
 - **Implication**: Persistent error suggests potential tool limitations with certain video formats or content.
 
@@ -99,6 +99,6 @@ For reference, all original media files (videos) and test screenshots are availa
 
 ### Conclusion
 
-This test provides insights into Attestiv’s usability and limitations when applied to various types of video content, both genuine and AI-modified. The tool effectively identifies AI-driven manipulations in certain contexts, such as face swaps, but demonstrates limitations in processing high-detail or complex natural scenery, leading to false positives in real footage. Additionally, repeated errors with certain uploads highlight potential compatibility issues.
+This test provides insights into Attestiv’s usability and limitations when applied to various types of video content, both genuine and AI-modified. The tool effectively identifies AI-driven manipulations in certain contexts, such as face swaps, but demonstrates limitations in processing high-detail or complex natural scenery, leading to false positives in real footage. Additionally, repeated errors with certain analysis highlight potential compatibility issues.
 
 Despite these findings, Attestiv shows promising potential for journalistic use, particularly in detecting deepfake-style alterations. Improvements in processing stability and accuracy could make it an essential tool for media verification in the future, especially as it evolves beyond its current developmental stage.
