@@ -28,8 +28,8 @@ For reference, all original media files (videos) and test screenshots are availa
 | **Video 3** | AI-generated night-time cliff scenery from Leonardo platform | **0.3383** | Moderate suspicion due to generated markers, stable score | [Leonardo](https://cdn.leonardo.ai/users/cf239304-deb5-4ad4-ad74-b74ba38be85c/generations/27c0aa8a-3354-4964-81da-fdd6d43055fc/27c0aa8a-3354-4964-81da-fdd6d43055fc.mp4) |
 | **Video 4** | AI-enhanced video with Tom Cruise face replacement | **0.4168** | Moderate suspicion, tool accurately detects face replacement | [YouTube](https://www.youtube.com/watch?v=iyiOVUbsPcM) |
 | **Video 5** | Real stock video of a city view from a hotel, error encountered during upload | - | Internal server error prevented analysis | [YouTube](https://www.youtube.com/watch?v=CE0Q904gtMI) |
-| **Video 6** | Real video of a city street view from a high floor, taken by mobile phone | **0.4038** | Slightly above moderate suspicion, possibly due to compression artifacts | GitHub repo |
-| **Video 7** | Original unaltered video used in the lip-syncing exercise, lips fully closed | **0.2471** | Low suspicion; accurately detected as unaltered despite minor markers | GitHub repo |
+| **Video 6** | Real video of a city street view from a high floor, taken by mobile phone | **0.4038** | Slightly above moderate suspicion, possibly due to compression artifacts | [GitHub repo](https://github.com/wsaqaf/blockchainai/raw/refs/heads/main/Attestiv/videos/test6-Dusit_hotel-suites-doha-original-r1.mp4) |
+| **Video 7** | Original unaltered video used in the lip-syncing exercise, lips fully closed | **0.2471** | Low suspicion; accurately detected as unaltered despite minor markers | [GitHub repo](https://github.com/wsaqaf/blockchainai/raw/refs/heads/main/Attestiv/videos/test7-D-ID-lipsync1-f2.mp4) |
 | **Video 8** | Real drone footage of a river in a green valley | **0.5891** | Moderate to high suspicion, false positives likely due to natural scenery | [Vecteezy](https://www.vecteezy.com/video/38999617-green-simple-nature-slomo-view) |
 | **Video 9** | Stock drone footage over New York at night, error encountered during processing | - | Persistent processing error prevented analysis | [YouTube](https://www.youtube.com/watch?v=TEjHDF9QXTY) |
 | **Video 10** | Real video of impersonator Evan Ferrante imitating Tom Cruise without AI | **0.6327** | High suspicion due to impersonation style, false positives for face replacement markers | [YouTube](https://www.youtube.com/watch?v=6dVzXwmysdg) |
@@ -70,13 +70,13 @@ For reference, all original media files (videos) and test screenshots are availa
 - **Suspicion Score**: 0.4038
 - **Notes**: Slightly above moderate suspicion, possibly due to natural video artifacts.
 - **Implication**: Demonstrates that real footage can be flagged as suspicious, especially with complex lighting.
-- **Link**: GitHub repo
+- **Link**: [GitHub repo](https://github.com/wsaqaf/blockchainai/raw/refs/heads/main/Attestiv/videos/test6-Dusit_hotel-suites-doha-original-r1.mp4)
 
 #### Video 7: Unaltered Original Video
 - **Suspicion Score**: 0.2471
 - **Notes**: Low suspicion rating, correctly detected as genuine, despite minor markers likely from natural video noise.
 - **Implication**: Confirms that Attestiv can recognize unaltered videos accurately.
-- **Link**: GitHub repo
+- **Link**: [GitHub repo](https://github.com/wsaqaf/blockchainai/raw/refs/heads/main/Attestiv/videos/test7-D-ID-lipsync1-f2.mp4)
 
 #### Video 8: Real Drone Footage of Nature
 - **Suspicion Score**: 0.5891
